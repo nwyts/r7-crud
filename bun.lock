@@ -17,6 +17,7 @@
         "react-router": "7.12.0",
       },
       "devDependencies": {
+        "@netlify/vite-plugin-react-router": "^3.0.0",
         "@react-router/dev": "7.12.0",
         "@tailwindcss/vite": "^4.1.13",
         "@types/luxon": "^3.7.1",
@@ -152,6 +153,14 @@
     "@jridgewell/trace-mapping": ["@jridgewell/trace-mapping@0.3.31", "", { "dependencies": { "@jridgewell/resolve-uri": "^3.1.0", "@jridgewell/sourcemap-codec": "^1.4.14" } }, "sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw=="],
 
     "@mjackson/node-fetch-server": ["@mjackson/node-fetch-server@0.2.0", "", {}, "sha512-EMlH1e30yzmTpGLQjlFmaDAjyOeZhng1/XCd7DExR8PNAnG/G1tyruZxEoUe11ClnwGhGrtsdnyyUx1frSzjng=="],
+
+    "@netlify/edge-functions": ["@netlify/edge-functions@3.0.3", "", { "dependencies": { "@netlify/types": "2.3.0" } }, "sha512-grElRK+rTBdYrPsULPKrhcHhrW+fwpDRLPbGByqa6Xrz0fhzcFJ2D9ijxEQ/onFcSVPYHT1u1mI48GhS5bZ/Ag=="],
+
+    "@netlify/functions": ["@netlify/functions@5.1.2", "", { "dependencies": { "@netlify/types": "2.3.0" } }, "sha512-tpPiLSkQatuexH8AdAZ8RlALvT7ixOE9VhvpkzQGNvihcms8hzmvUDuSxQa7UneTj/sHsdirnXmnJ+nmf+Nx/w=="],
+
+    "@netlify/types": ["@netlify/types@2.3.0", "", {}, "sha512-5gxMWh/S7wr0uHKSTbMv4bjWmWSpwpeLYvErWeVNAPll5/QNFo9aWimMAUuh8ReLY3/fg92XAroVVu7+z27Snw=="],
+
+    "@netlify/vite-plugin-react-router": ["@netlify/vite-plugin-react-router@3.0.0", "", { "dependencies": { "@netlify/edge-functions": "^3.0.3", "@netlify/functions": "^5.1.2", "isbot": "^5.1.25", "tinyglobby": "^0.2.10" }, "peerDependencies": { "react-router": ">=7.9.0", "vite": ">=5.0.0" } }, "sha512-gzkyYmZwv+9M6iQR4MKHqX68sJSyjCXjIsKxFq3ogK7aNAEPBirpFkzmLE/x6x8SuAwx7/D7u+B+ctHPMnUlRQ=="],
 
     "@prisma/client": ["@prisma/client@6.19.2", "", { "peerDependencies": { "prisma": "*", "typescript": ">=5.1.0" }, "optionalPeers": ["prisma", "typescript"] }, "sha512-gR2EMvfK/aTxsuooaDA32D8v+us/8AAet+C3J1cc04SW35FPdZYgLF+iN4NDLUgAaUGTKdAB0CYenu1TAgGdMg=="],
 
