@@ -1,5 +1,5 @@
 [build]
-command = "react-router build && prisma generate"
+command = "prisma generate && react-router build"
 publish = "build/client"
 
 [dev]
